@@ -1,0 +1,49 @@
+section
+{
+    width: 100%;
+    height: 542px;   
+    background: #FDD04A;
+    padding-top: 128px;
+    .section-text
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 44px;
+        h1 
+        {
+            position: relative;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 58px;
+            color: #222730;
+            text-transform: capitalize;
+            img 
+            {
+                position: absolute;
+                left: 78px;
+                top: 63px;
+            }
+        }
+        p 
+        {
+            text-align: center;
+            width: 576px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #555;
+        }
+    }
+    .section-sponsors
+    {
+        margin-top: 41px;
+        width: 100%;
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}

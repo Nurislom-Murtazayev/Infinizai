@@ -1,0 +1,151 @@
+.section6
+{
+    width: 100%;
+    height: 1222px;
+    background-color: #000;
+    padding-top: 136px;
+    .section6-text
+    {
+        display: flex;
+        justify-content: space-between;
+        .text6-left
+        {
+            span 
+            {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            p 
+            {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+                text-transform: uppercase;
+                color: #57B8FF;
+            }
+            }
+            h1 
+            {
+                margin-top: 22px;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 74px;
+                color: #fff;
+            }
+        }
+        .text6-right
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            a
+            {
+                padding: 21px 34px;
+                background: #57B8FF;
+                color: #fff;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 28px;
+            }
+        }
+    }
+    &-main
+    {
+        display: flex;
+        gap: 24px;
+        margin-top: 68px;
+        
+        .main6-left
+        {
+            .card-big
+            {
+                img 
+                 {
+                   width: 648px;
+                   height: 510px;
+                 }
+                 p 
+                 {
+                    margin-top: 54px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 18px;
+                    color: #57B8FF;
+                 }
+                 h1
+                 {
+                    margin-top: 28px;
+                    font-weight: 400;
+                    font-size: 38px;
+                    line-height: 48px;
+                    color: #fff;
+                    text-transform: capitalize;
+                 }
+            }
+        }
+        .main6-right
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            .right6-top
+            {
+                display: flex;
+                gap: 24px;
+                .card6
+                {
+                    img
+                    {
+                        width: 312px;
+                        height: 189px;
+                    }
+                    p 
+                    {
+                        margin-top: 30px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 16px;
+                        color: #57B8FF;
+                    }
+                    h1 
+                    {
+                        margin-top: 20px;
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 34px;
+                        color: #fff;
+                    }
+                }
+            }
+            .right6-bottom
+            {
+                display: flex;
+                gap: 24px;
+                .card6
+                {
+                    img
+                    {
+                        width: 312px;
+                        height: 189px;
+                    }
+                    p 
+                    {
+                        margin-top: 30px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 16px;
+                        color: #57B8FF;
+                    }
+                    h1 
+                    {
+                        margin-top: 20px;
+                        font-weight: 400;
+                        font-size: 23px;
+                        line-height: 34px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
